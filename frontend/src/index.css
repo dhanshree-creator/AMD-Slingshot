@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-200 antialiased;
+  }
+}
+
+.bg-mesh {
+  background-color: #020617;
+  background-image: 
+    radial-gradient(at 10% 10%, hsla(253, 16%, 12%, 1) 0, transparent 50%), 
+    radial-gradient(at 80% 20%, hsla(225, 39%, 15%, 1) 0, transparent 50%), 
+    radial-gradient(at 50% 80%, hsla(339, 49%, 10%, 1) 0, transparent 50%);
+  background-attachment: fixed;
+}
